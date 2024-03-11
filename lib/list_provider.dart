@@ -5,7 +5,6 @@ class ListProvider extends ChangeNotifier {
   List<TodoItem> todos = [];
 
   void toggleCheckbox(int index, bool value) {
-    print('khjgjfd44444sa $value');
     todos[index].isChecked = value;
     notifyListeners();
   }
