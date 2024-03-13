@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       create: (context) => ListProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Custom AppBar Size',
+        title: '',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
